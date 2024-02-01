@@ -32,7 +32,7 @@ const Header = () => {
                 <img src={instagram} alt='' className='socialsIcon' />
             </div>
             <div className='email' >
-                <h3><MdConnectWithoutContact className='icon'/> Contact Me</h3>
+                <h4><MdConnectWithoutContact className='icon'/> Contact Me</h4>
                 <h4><MdOutlineMail className='icon' /> tahirurafiu61@gmail.com</h4>
             </div>
             <div className='date' >
