@@ -1,0 +1,175 @@
+#about{
+    width: 70%;
+    height: auto;
+    border: solid #7a7a7a 0.2rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    margin-left: auto ;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-image: url('../assets/contact7.jpg');
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+
+}
+
+
+
+.aboutText>h1{
+    color: #fee715ff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+
+.aboutText>h4{
+    font-size: 1.1rem;
+}
+
+.checkIcon{
+    width: 2rem;
+    height: 1rem;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    background-color: #fee715ff;
+    font-size: medium;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #e131ff;
+}
+
+.skills{
+    font-family: 'Times New Roman', Times, serif;
+    text-align:  center;
+    padding: 1rem 0;
+}
+.percent{
+    font-size: 0.5rem;
+    text-align: right;
+    margin-top: -2rem;
+}
+
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.progressBar{
+    width: 100%;
+    height: 1.5rem;
+    border: solid 2px #7a7a7a;
+    border-radius: 0.3rem;
+    appearance: none;
+}
+
+.progressBar::-webkit-progress-bar {
+    background:white
+}
+.progressBar::-webkit-progress-value {
+    background-color: #fee715ff;
+}
+.missions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.mission{
+    border: solid 2px #f0ebeb;;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.icon2{
+    width: 3rem;
+    height: 2rem;
+    color: #fee715ff;
+    background-color: #101820ff;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.missionHeader{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.missions>p{
+    font-size: 1rem;
+}
+
+@media screen and (max-width:767px) {
+    #about{
+        width: 98%;
+        padding: 0.5rem;
+        margin:auto;
+    }
+    .aboutImg{
+        height: auto;
+        width: 7rem;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.5rem;
+    }
+    .aboutText>h4{
+        font-size: 0.4rem;
+    }
+    .checkIcon{
+        width: 1rem;
+        height: 0.5rem;
+    }
+    .btn{
+        padding: 0.5rem 0.5rem;
+        font-size: 0.5rem;
+        margin: 0.5rem 0;
+    }
+    .progressBar{
+        height: 1rem;
+    }
+    .mission{
+        padding: 1rem 4rem;
+        margin-top: 2rem;
+    }
+    .missionHeader{
+        font-size: 1rem;
+    }
+    .missionsPara{
+        font-size: 0.6rem;
+
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:820px) {
+    #about{
+        width: 100%;
+        margin: auto;
+    }
+    .mission{
+        margin: auto;
+    }
+}
