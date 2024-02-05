@@ -122,7 +122,7 @@ p{
 
 @media screen and (max-width:767px) {
     #about{
-        width: 98%;
+        width: 100%;
         padding: 0.5rem;
         margin:auto;
     }

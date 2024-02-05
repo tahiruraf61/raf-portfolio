@@ -29,16 +29,16 @@ const Navigation = () => {
     <div className='nav'>
       <nav>
       <Link to='/' className='nav-item'>About Me</Link>
-      <Link to='portfolio' className='nav-item'>Portfolio</Link>
       <Link to='services' className='nav-item'>Services</Link>
+      <Link to='portfolio' className='nav-item'>Portfolio</Link>
       <Link to='contact' className='nav-item'>Contact</Link>
       </nav>
     </div>
     <div className='mobileMenu'>
       <section className='menu'>
       <Link to='/' className='item'>About Me</Link>
-      <Link to='portfolio' className='item'>Portfolio</Link>
       <Link to='services' className='item'>Services</Link>
+      <Link to='portfolio' className='item'>Portfolio</Link>
       <Link to='contact' className='item'>Contact</Link>
       </section>
       </div>

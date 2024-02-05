@@ -1,0 +1,91 @@
+#services{
+    width: 70%;
+    height: auto;
+    border: solid #7a7a7a 0.2rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    margin-left: auto ;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.serviceContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    box-sizing: border-box;
+}
+.serviceItem{
+    width: 22rem;
+    border: solid 1px #7a7a7a;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 6rem 2rem;
+    box-sizing: border-box;
+}
+
+.serviceIcon{
+    color: #fee715ff;
+    width: 3rem;
+    height: auto;
+    background-color: #101820ff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+h5{
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width:767px) {
+    #services{
+        width: 100%;
+        margin: auto;
+    }
+    .sevH1{
+        font-size: 1rem;
+    }
+    .sevH5{
+        font-size: 1rem;
+    }
+    .sevPara{
+        font-size: 0.9rem;
+    }
+
+    .serviceItem{
+        width: 16rem;
+        margin: 1.5rem 0;
+    }
+    .serviceIcon{
+        width: 1.5rem;
+    }
+}
+@media screen and (min-width:768px) and (max-width:820px){
+    #services{
+        width: 100%;
+        margin: auto;
+    }
+
+    .serviceItem{
+        width: 30rem;
+        margin:  2rem ;
+        padding: 2rem;
+    }
+    .sevH1{
+        font-size: 2rem;
+    }
+    .sevH5{
+        font-size: 1.5rem;
+    }
+    .sevPara{
+        font-size: 1.3rem;
+    }
+    .serviceIcon{
+        width: 2rem;
+    }
+}
