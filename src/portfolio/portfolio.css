@@ -22,13 +22,14 @@
     align-items: center;
     justify-content: center;
 }
+.portImgs{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .portImg{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     object-fit: cover;
-    width: 30rem;
+    width: 40%;
     height: auto;
     margin: 1rem 2rem;
 }
@@ -36,12 +37,13 @@
 @media screen and (max-width:767px) {
     #portfolio{
         width: 100%;
+        padding-bottom: 4rem;
     }
     .portImg{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 15rem;
+        width: 80%;
     }
 }
 
@@ -49,13 +51,20 @@
     #portfolio{
         width: 100%;
         margin: auto;
+        padding-bottom: 5rem;
     }
     .portImg{
         object-fit: cover;
-        width: 30rem;
+        width: 80%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
+}
+
+@media screen and (min-width:912px) and (max-width:1024px) {
+    .portImg{
+        width: 80%;
+    }
 }

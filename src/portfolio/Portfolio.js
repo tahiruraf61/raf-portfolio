@@ -12,15 +12,15 @@ const Portfolio = () => {
     <div id='portfolio'>
       <h1 className='portHeader'>Satisfied Clients</h1>
       <section className='portItems'>
-        <div>
+        <div className='portImgs'>
         <img src={port1} alt='' className='portImg' />
         <img src={port2} alt='' className='portImg' />
         </div>
-        <div>
+        <div className='portImgs'>
         <img src={port3} alt='' className='portImg' />
         <img src={port4} alt='' className='portImg' />
         </div>
-        <div>
+        <div className='portImgs'>
         <img src={port5} alt='' className='portImg' />
         <img src={port6} alt='' className='portImg' />
         </div>
@@ -30,4 +30,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio;
